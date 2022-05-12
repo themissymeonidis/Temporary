@@ -3,7 +3,7 @@ import { CHANGESTATUS } from './Toggler.action';
 
 /** @namespace TaskApp/Store/Toggler/Reducer/getInitialState */
 export const getInitialState = () => ({
-    sidebarState: true
+    sidebarState: false
 });
 
 /** @namespace TaskApp/Store/Toggler/Reducer/TogglerReducer */
