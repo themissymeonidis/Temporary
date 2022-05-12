@@ -1,0 +1,27 @@
+.Toggler {
+    // TODO style the element
+}
+
+.my-div {
+    overflow-y: auto;
+    position: absolute;
+    inset-inline-start: calc(100% - 12vh);
+    inset-block-start: -11px;
+    z-index: 150;
+    width: 90vw;
+    height: 100vh;
+    background-color: var(--primary-base-color);
+}
+
+.XIcon {
+    margin-block-end: 20px;
+    width: 50px;
+    height: 50px;
+    fill: white;
+    inset-block-start: 20px;
+    inset-inline-start: calc(50% - 50px);
+
+    :hover {
+        fill: black;
+    }
+}

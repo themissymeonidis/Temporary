@@ -1,0 +1,37 @@
+:root {
+    --navigation-tabs-height: calc(1500px + env(safe-area-inset-top));
+    --navigation-tabs-background: var(--secondary-light-color);
+    --navigation-tabs-color: var(--secondary-dark-color);
+}
+
+.NavigationTabs {
+    inset-block-end: calc(100vh - var(--footer-nav-height));
+
+    &-Nav {
+        height: var(--footer-nav-height);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 12px;
+        z-index: 999;
+        max-width: var(--content-wrapper-width);
+        margin: auto;
+
+        @include mobile {
+            border-bottom: 2px solid var(--primary-base-color);
+            padding: 0 14px;
+        }
+    }
+}
+
+.Logo-Placeholder {
+    width: 100px;
+    inset-block-start: 12px;
+    padding: 0px;
+    margin: 0;
+}
+
+.Image.Image_imageStatus_IMAGE_NOT_SPECIFIED.Logo {
+    width: 100px;
+    // What's this element?
+}
